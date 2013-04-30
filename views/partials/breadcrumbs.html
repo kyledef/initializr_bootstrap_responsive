@@ -1,0 +1,13 @@
+{{ if template:has_breadcrumbs }}
+	{{ if theme:options:show_breadcrumbs == 'yes' }}
+		<ul class="breadcrumb">
+		{{ template:breadcrumbs }}
+			{{ if uri }}
+				<li>{{ url:anchor segments=uri title=name }}&nbsp;>&nbsp;</li>
+			{{ else }}
+				<li><span class="active">{{ name }}</span></li>
+			{{ endif }}
+		{{ /template:breadcrumbs }}
+		</ul>
+	{{ endif }}
+{{ endif }}
