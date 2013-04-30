@@ -11,6 +11,6 @@ Based on the default Initializr Bootstrap responsive framework on: http://www.in
 
 
 Roadmap:
-[ ] Implement Screenshots for theme with Lorem Ipsum
-[ ] Introduce Font Awesome
-[ ] Implement Options based on tbe Bootstrap examples
+- Implement Screenshots for theme with Lorem Ipsum
+- Introduce Font Awesome
+- Implement Options based on tbe Bootstrap examples
